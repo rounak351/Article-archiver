@@ -1,54 +1,54 @@
-📚 Article Archiver
-Article Archiver is a Flask-based web application that uses Optical Character Recognition (OCR) to digitize and organize physical articles. Users can upload images or PDFs, extract editable text, and store them with tags and categories — making knowledge searchable, accessible, and permanent.
+# 📚 Article Archiver
 
-This project is ideal for students, researchers, and readers who need an efficient way to manage articles and documents.
+![Flask](https://img.shields.io/badge/Flask-Backend-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.9+-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-✨ Features
-📷 OCR Integration – Extract text from scanned images or PDFs using Tesseract OCR.
+Article Archiver is a lightweight, OCR-powered web app built with Flask. It enables users to scan physical articles (images or PDFs), extract text using Tesseract OCR, and save, tag, and search content. It’s ideal for students, researchers, and knowledge managers who want to digitize and organize documents quickly and efficiently.
 
-🗂 Article Management – Save articles with titles, tags, and categories for easy organization.
+---
 
-🔎 Search & Filter – Quickly locate articles by searching with keywords or filtering by tags/categories.
+## 📑 Table of Contents
 
-📱 Responsive Design – Clean and minimal interface that works on both desktop and mobile.
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+- [Contributors](#contributors)
 
-🔐 User Authentication – Secure login and registration (planned/optional).
+---
 
-📤 Export Options – Future updates may include exporting articles to PDF or text.
+## 🧠 About
 
-🛠 Tech Stack
-Backend: Flask (Python), Tesseract OCR, SQLite
-Frontend: HTML5, CSS3, JavaScript, Bootstrap
-Templating: Jinja2
+**Article Archiver** streamlines the process of converting physical documents to digital format. With OCR integration, it extracts text from uploaded images or PDFs and stores them in a searchable and organized database. A responsive UI ensures usability across devices.
 
-🚀 Installation
+---
 
-# Clone the repository
-git clone https://github.com/rounak351/Article-archiver.git
+## ✨ Features
 
-# Navigate to the project directory
-cd Article-archiver
+- **📷 OCR Integration** – Uses Tesseract to extract text from scanned images and PDFs  
+- **🗂 Article Management** – Store articles with custom titles, tags, and categories  
+- **🔎 Search & Filter** – Quickly find content with keyword search or by filtering tags/categories  
+- **📱 Responsive UI** – Clean and minimal interface using Bootstrap  
+- **🔐 Authentication** *(planned)* – Login and register to manage personal content  
+- **📤 Export Options** *(planned)* – Export saved articles as PDF or TXT files
 
-# Create a virtual environment (optional but recommended)
-python -m venv venv
+---
 
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+## ⚙️ Tech Stack
 
-# Install the required dependencies
-pip install -r requirements.txt
+| Layer      | Tools Used                       |
+|------------|----------------------------------|
+| **Backend**  | Python, Flask, SQLite, Tesseract OCR |
+| **Frontend** | HTML5, CSS3, Bootstrap, JavaScript |
+| **Templating** | Jinja2                          |
 
+---
 
-📥 Install Tesseract OCR
-macOS (Homebrew):brew install tesseract
-Ubuntu/Debian:sudo apt install tesseract-ocr
-Windows:https://github.com/tesseract-ocr/tesseract
-
-
-▶️ Run the Application
-python app.py
-
+## 🗂 Project Structure
 
