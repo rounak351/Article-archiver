@@ -50,26 +50,5 @@ Article Archiver is a lightweight, OCR-powered web app built with Flask. It enab
 
 ---
 
-## 🗂 Project Structure
-├── app.py # Main Flask app
-├── requirements.txt # Python dependencies
-├── .gitignore # Ignore Python cache and venv
-├── templates/ # HTML templates
-│ ├── home.html
-│ ├── login.html
-│ ├── register.html
-│ ├── index.html
-│ └── view_text.html
-└── README.md # This file
-
----
-
-## 🔧 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/rounak351/Article-archiver.git
-cd Article-archiver
 
 
