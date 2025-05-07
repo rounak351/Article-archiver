@@ -22,3 +22,35 @@ To set up the project on your local machine, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/rounak351/Article-archiver.git
+   # Clone the repository
+git clone https://github.com/rounak351/Article-archiver.git
+
+# Navigate to the project directory
+cd Article-archiver
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install the required dependencies
+pip install -r requirements.txt
+
+# Install Tesseract OCR:
+# On macOS (using Homebrew):
+brew install tesseract
+# On Ubuntu/Debian:
+sudo apt install tesseract-ocr
+# On Windows:
+# Download from https://github.com/tesseract-ocr/tesseract and follow installer instructions
+
+# Run the Flask application
+python app.py
+
+# Once the app is running, open this in your browser
+# http://127.0.0.1:5000
+
