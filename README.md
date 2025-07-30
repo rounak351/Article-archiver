@@ -4,24 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Article Archiver is a lightweight, OCR-powered web app built with Flask. It enables users to scan physical articles (images or PDFs), extract text using Tesseract OCR, and save, tag, and search content. It’s ideal for students, researchers, and knowledge managers who want to digitize and organize documents quickly and efficiently.
-
----
-
-## 📑 Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-- [Contributors](#contributors)
-
----
 
 ## 🧠 About
 
